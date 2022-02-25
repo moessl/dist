@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../node_modules/@delon/abc/onboarding/schema.json",
+  "maskClosable": true,
+  "items": [
+    {
+      "selectors": ".btn-purchase",
+      "title": "点这里采购证书憑證",
+      "i18n": "onboarding.quickplace",
+      "lightStyle": "background-color: rgba(0, 0, 0, 0.2)"
+    },
+    {
+      "selectors": ".product-item-free_trial",
+      "title": "选择一款产品",
+      "i18n": "onboarding.select-product",
+      "lightStyle": "background-color: rgba(0, 0, 0, 0.2)"
+    }
+  ]
+}

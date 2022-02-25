@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42px" height="36px" viewBox="0 0 42 36" version="1.1">
+    <title>button_指向</title>
+    <g id="button_指向" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="矩形" stroke="rgba(255,255,255,0)" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="40" height="34"/>
+        <polygon id="路径-3" fill="rgba(255,255,255,0)" points="10 0 2.44318611 36 0 36 0 0"/>
+        <polygon id="路径" fill="rgba(255,255,255,0)" fill-rule="nonzero" transform="translate(23.500000, 17.500000) rotate(-315.000000) translate(-23.500000, -17.500000) " points="27 14 27 21 25 21 25 16 20 16 20 14"/>
+    </g>
+</svg>

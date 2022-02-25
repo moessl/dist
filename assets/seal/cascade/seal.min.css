@@ -1,0 +1,49 @@
+#dynamicSeal {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  font-size: 100%;
+  font-style: normal;
+  text-indent: 0px;
+  line-height: 1;
+  margin: 0px auto;
+  padding: 0px;
+  border: 0px;
+  background: transparent;
+  position: relative;
+  inset: 0px;
+  clear: both;
+  float: none;
+  cursor: default;
+}
+
+#dynamicSeal_object {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  font-size: 100%;
+  font-style: normal;
+  text-indent: 0;
+  line-height: 1;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  clear: both;
+  float: none;
+  cursor: pointer;
+  transition: all 0.2s ease 0.2s;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  transform-origin: center center;
+  z-index: 2;
+}
+
+#dynamicSeal_object:hover {
+  transform: matrix(1.8, 0, 0, 1.8, 0, 0);
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html><html><head>
+  <meta charset="utf-8">
+  <title>SSL Certificate | HTTPS SSL | TLS Certificate</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SSL Certificate, Wildcard SSL, SSL证书, 多域名证书, 通配符证书">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <base href="/">
+  <script>
+    if (location.protocol === 'http:' && ['localhost', '127.0.0.1'].indexOf(location.hostname) === -1) {
+      location.href = location.href.replace(/^http\:\/\//, 'https://');
+    }
+  </script>
+  <style type="text/css">
+    .preloader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 9999;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #000;
+      transition: opacity .65s;
+      border: 0;
+    }
+
+    .preloader-hidden-add {
+      display: block;
+      opacity: 1
+    }
+
+    .preloader-hidden-add-active {
+      opacity: 0
+    }
+
+    .preloader-hidden {
+      display: none
+    }
+  </style>
+<style>html,body{width:100%;height:100%}*,*:before,*:after{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:scrollbar;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{margin:0;color:#000000d9;font-size:14px;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";font-variant:tabular-nums;line-height:1.5715;background-color:#fff;font-feature-settings:"tnum"}html{--antd-wave-shadow-color:#1890ff;--scroll-bar:0}body{scrollbar-color:rgba(0,0,0,.3) #6e6e6e;scrollbar-width:thin}body::-webkit-scrollbar{width:6px;height:6px}body::-webkit-scrollbar-track{box-shadow:inset 0 0 6px #0000004d}body::-webkit-scrollbar-thumb{background-color:#6e6e6e;outline:1px solid #333}html{height:100%;direction:ltr;touch-action:manipulation}html,body,app-root{height:100%}body{color:#000000d9;background-color:#f5f7fa}</style><link rel="stylesheet" href="https://accelerate.pki.plus/styles.4c1d241d7c1a0233.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://accelerate.pki.plus/styles.4c1d241d7c1a0233.css"></noscript></head>
+
+<body>
+  <app-root></app-root>
+  <div class="preloader-wrap1">
+    <div class="preloader-wrap2">
+      <iframe class="preloader"></iframe>
+    </div>
+  </div>
+  <script>String.prototype.toFixed = function (a, b, c) { return parseFloat(this).toFixed(a, b, c) };</script>
+  <script>
+    (function (d, l, c, a) {
+      var w = d[c]('script');
+      if (l.hostname != 'localhost') {
+        w.src = 'https://accelerate.pki.plus/assets/wasm.js';
+      } else {
+        w.src = '/assets/wasm.js';
+      }
+      d.body[a](w);
+    })(document, location, 'createElement', 'appendChild')
+  </script>
+  <script>
+    var iframe = document.getElementsByClassName('preloader')[0];
+    var unloadIframe = function () {
+      if (iframe) {
+        iframe.remove();
+      }
+      if (document.getElementsByClassName('preloader-wrap1').length) {
+        document.getElementsByClassName('preloader-wrap1')[0].remove();
+      }
+    };
+    try {
+      eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('7 8=9(){a 1.2!=\'3://b.c.d\'&&1.2!=\'3://5.e.6.f\'&&1.2!=\'3://g.h.4\'&&1.2!=\'3://i.j.6.4\'&&1.2!=\'3://k.l.4\'&&1.m.n(\'o://p:q/5\')!==0};',27,27,'|location|origin|https|cn|tracker|com|var|isNotTracker|function|return|certcentral|pages|dev|ssl|ru|track|sslcorp|t|digitcert|sslcom|trusthub|href|indexOf|http|localhost|4200'.split('|'),0,{}))
+    } catch (e) { }
+    if ('undefined' !== typeof isNotTracker  &&  isNotTracker()) {
+      if (localStorage && !localStorage['site-theme'] && !localStorage['site-theme-init']) {
+        localStorage['site-theme'] = location.origin.indexOf('w2.') === 10 ? 'default' : 'dark';
+        localStorage['site-theme-init'] = 1;
+      }
+      setTimeout(unloadIframe, 500);
+    } else {
+      if (location.pathname === '/') {
+        location.href = '/tracker/';
+      } else {
+        document.getElementsByClassName('preloader-wrap1')[0].style = 'min-height: 100vh; background-image: repeating-linear-gradient(-45deg , #9c9c9cee, #d8d8d8ee 4px);text-align: center;';
+        document.getElementsByClassName('preloader-wrap2')[0].style = 'min-height: 100vh; color: #000000; font-family: Roboto, Arial, sans-serif; background-image: repeating-linear-gradient(45deg, #9c9c9c00, #d8d8d8 4px);text-align: center;';
+        iframe.style = 'position: relative; max-width: 934px; height: 90vh; background-color: #fff; box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); margin: 0 auto 0 auto;';
+
+        iframe.contentDocument.body.innerHTML = [
+          "<div>",
+          "    <style>*{font-size: 14px;}html,body{margin:0}.ant-alert { box-sizing: border-box; margin: 0; padding: 0; color: rgba(0, 0, 0, 0.85); font-size: 14px; font-variant: tabular-nums; line-height: 1.5715; list-style: none; font-feature-settings: 'tnum'; position: relative; display: flex; align-items: center; padding: 8px 15px; word-wrap: break-word; border-radius: 2px; } .ant-alert-content { flex: 1; min-width: 0; } .ant-alert-success { background-color: #f6ffed; border: 1px solid #b7eb8f; } .ant-alert-info { background-color: #e6f7ff; border: 1px solid #91d5ff; } .ant-alert-message { color: rgba(0, 0, 0, 0.85); } nz-alert { display: block; } .ant-btn { line-height: 1.5715; position: relative; display: inline-block; font-weight: 400; white-space: nowrap; text-align: center; background-image: none; border: 1px solid transparent; box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015); cursor: pointer; transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1); -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; touch-action: manipulation; height: 32px; padding: 4px 15px; font-size: 14px; border-radius: 2px; color: rgba(0, 0, 0, 0.85); background: #fff; border-color: #d9d9d9; } .ant-btn, .ant-btn:active, .ant-btn:focus { outline: 0; } .ant-btn:not([disabled]):hover { text-decoration: none; } .ant-btn:not([disabled]):active { outline: 0; box-shadow: none; } .ant-btn-sm { height: 24px; padding: 0px 7px; font-size: 14px; border-radius: 2px; } .ant-btn:hover, .ant-btn:focus { color: #40a9ff; background: #fff; border-color: #40a9ff; } .ant-btn:active { color: #096dd9; background: #fff; border-color: #096dd9; } .ant-btn:hover, .ant-btn:focus, .ant-btn:active { text-decoration: none; background: #fff; } .ant-btn>span { display: inline-block; } .ant-btn::before { position: absolute; top: -1px; right: -1px; bottom: -1px; left: -1px; z-index: 1; display: none; background: #fff; border-radius: inherit; opacity: 0.35; transition: opacity 0.2s; content: ''; pointer-events: none; } .ant-btn:focus>span, .ant-btn:active>span { position: relative; } a.ant-btn { padding-top: 0.1px; line-height: 30px; } a.ant-btn-sm { line-height: 22px; } .ant-dropdown-trigger>.anticon.anticon-down, .ant-dropdown-link>.anticon.anticon-down, .ant-dropdown-button>.anticon.anticon-down { font-size: 10px; vertical-align: baseline; } .ant-row { display: flex; flex-flow: row wrap; } .ant-row-top { align-items: flex-start; } .ant-col { position: relative; max-width: 100%; min-height: 1px; } .ant-col-xs-24 { display: block; flex: 0 0 100%; max-width: 100%; } @media (min-width: 576px) { .ant-col-sm-14 { display: block; flex: 0 0 58.33333333%; max-width: 58.33333333%; } .ant-col-sm-10 { display: block; flex: 0 0 41.66666667%; max-width: 41.66666667%; } .ant-col-sm-2 { display: block; flex: 0 0 8.33333333%; max-width: 8.33333333%; } .ant-col-sm-1 { display: block; flex: 0 0 4.16666667%; max-width: 4.16666667%; } } .ant-btn+.ant-btn, .ant-btn+nz-popconfirm, nz-popconfirm+.ant-btn, nz-popconfirm+nz-popconfirm, .ant-btn+nz-button-group, nz-button-group+.ant-btn, .ant-btn+nz-dropdown, nz-dropdown+.ant-btn, nz-popconfirm+nz-button-group, nz-button-group+nz-popconfirm { margin-left: 8px; } .align-middle { vertical-align: middle !important; } .align-bottom { vertical-align: bottom !important; } .border-0 { border: 0 !important; } .border-bottom-1 { border-bottom: 1px solid #f0f0f0 !important; } .border-grey { border-color: #bfbfbf !important; } .rounded-0 { border-radius: 0; } .bg-white { background-color: #fff !important; } .text-white { color: #fff !important; } .text-green-dark {} .text-geekblue-light { color: #597ef7 !important; } .bg-grey-dark { background-color: #8c8c8c !important; } .text-grey-dark {} .bg-grey-darker { background-color: #262626 !important; } .d-block { display: block !important; } .d-inline-block { display: inline-block !important; } .m0 { margin: 0 !important; } .p0 { padding: 0 !important; } .ml-xs { margin-left: 4px !important; } .mr-sm { margin-right: 8px !important; } .mb-sm { margin-bottom: 8px !important; } .ml-sm { margin-left: 8px !important; } .mx-sm { margin-right: 8px !important; margin-left: 8px !important; } .pl-sm { padding-left: 8px !important; } .py-sm { padding-top: 8px !important; padding-bottom: 8px !important; } .ml-md { margin-left: 16px !important; } .p-md { padding: 16px !important; } .pl-md { padding-left: 16px !important; } .px-md { padding-right: 16px !important; padding-left: 16px !important; } .mt-lg { margin-top: 24px !important; } .py-lg { padding-top: 24px !important; padding-bottom: 24px !important; } .pb-xl { padding-bottom: 32px !important; } .px-xl { padding-right: 32px !important; padding-left: 32px !important; } .py-xl { padding-top: 32px !important; padding-bottom: 32px !important; } .text-left { text-align: left !important; } .text-center { text-align: center !important; } .text-right { text-align: right !important; } .text-xs { font-size: 12px !important; } .text-sm { font-size: 14px !important; } .text-lg { font-size: 18px !important; } .width-10 { width: 10% !important; } .width-20 { width: 20% !important; } .min-width-50 { min-width: 50% !important; } .width-100 { width: 100% !important; } .global-footer { display: block; margin: 48px 0 24px; padding: 0 16px; text-align: center; } .global-footer__copyright { color: rgba(0, 0, 0, 0.45); font-size: 14px; }.user-center-head { display: block; width: 20px; margin-top: 1px; height: 48px; transform: rotate(30deg); margin-left: -13px; max-width: 20px; }.global-footer{position:absolute; bottom: 0; width: 100%}</style>",
+          '    <div id="MainWrap"><div class="Management_full pb-xl"><div class="bg-grey-darker p-md py-xl"><div><img src="/assets/' + location.hostname + '.svg" onerror="this.src=\'/assets/logo-sslcom.svg?v=2\'" class="mr-sm align-bottom" style="width: 200px;height: 48.5px;"></div></div><nz-row nzalign="top" class="ant-row ant-row-top"><nz-col nzxs="24" nzsm="14" class="ant-col ant-col-xs-24 ant-col-sm-14"><div class="bg-grey-darker text-white px-md py-sm" style="border-top: 2px solid #666;"> 完成SSL数字证书申请 </div></nz-col><nz-col nzxs="24" nzsm="1" class="hidden-xs bg-white user-center-head ant-col ant-col-xs-24 ant-col-sm-1"></nz-col></nz-row></div><global-footer class="m0 p0 global-footer"><div class="global-footer__copyright"><div class="bg-grey-dark px-md py-lg text-white text-xs text-left width-100"> © Copyright 2021. All rights reserved. </div></div></global-footer></div>',
+          "</div>",
+        ].join('');
+        if (location.pathname == '/tracker') {
+          iframe.style.height = '484px';
+        }
+      }
+      setTimeout(unloadIframe, 1000);
+    }
+  </script>
+  <script>
+    (function () {
+      setTimeout(function () {
+        var gatag = document.createElement('script');
+        gatag.src = 'https://www.googletagmanager.com/gtag/js?id=G-BVR9MFQBYC';
+        gatag.async = true;
+        document.body.appendChild(gatag);
+      }, 1000);
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-BVR9MFQBYC');
+    })();
+  </script>
+<script src="https://accelerate.pki.plus/runtime.5075fa4632fb2cf4.js" type="module"></script><script src="https://accelerate.pki.plus/polyfills.81dd1e3d2170ad23.js" type="module"></script><script src="https://accelerate.pki.plus/scripts.41a9856de27b14c2.js" defer></script><script src="https://accelerate.pki.plus/main.0298c2d203686698.js" type="module"></script>
+
+
+</body></html>
